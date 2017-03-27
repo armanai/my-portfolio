@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Armana Imsirevic - Front-End Developer, Student Portfolio">
+    <meta name="keywords" content="Armana,Imsirevic,Portfolio,Front-End,izrada,web stranice">
+    <meta name="author" content="Armana Imsirevic">
+
+    <title>Armana Imsirevic - Portfolio</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <nav class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#top"><img src="assets/img/logo.png"></a>
+              <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+                  <div id="nav-icon">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+              </a>
+              <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#top" onclick=$("#menu-toggle").click();><img src="assets/img/logo.png"></a>
+                    </li>
+                    <li>
+                        <a href="#top" onclick=$("#menu-toggle").click();>Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" onclick=$("#menu-toggle").click();>About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" onclick=$("#menu-toggle").click();>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" onclick=$("#menu-toggle").click();>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="color">
+<header id="top" class="header section">
+	<img id="vector1" src="assets/img/vector.png" alt="vector-icon">
+        <img id="monitor1" src="assets/img/monitorBlue.png" alt="monitorBlue">
+        <img id="code1" src="assets/img/code.png" alt="code-icon">
+    <div class="text-vertical-center">
+        <h1><strong>ARMANA</strong><span><strong>IMŠIREVIĆ</strong></span></h1>
+        <h2>Front-End Developer &amp; Designer</h2>
+        <br>
+        <a href="#about" id="scroll">Scroll</a>
+    </div>
+</header>
+</div>
+<section id="about" class="about section">
+    <div class="callout">
+        <div class="row text-vertical-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="circle" id="circle1"></div>
+                <svg height="300" width="250">
+                    <polygon points="200,10 300,190 100,190" style="fill:transparent;stroke:#fe6192;stroke-width:10" transform="translate(20,-40),rotate(40 50 50)"/>
+                    Sorry, your browser does not support inline SVG.
+                </svg>
+                <img id="bgdttCircle" src="assets/img/dottedCircle.png" alt="bg-circle">
+                <img src="assets/img/me.jpg">
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h3>Hi, My name is Armnana Imsirevic, I'm Front-End Developer and Designer, student at RIT Croatia, living in Zagreb.</h3>
+                <p>I'm sophmore student majoring in Information Technologies. I'm focused on learnig Front-End Development mostly, because that is what I'm interested in. I also love clean, simple and unique design.<br>
+                I like exploaring new IT fields. I like being challenged.</p>
+                <div class="circle" id="circle2"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clr1">
+<section id="portfolio" class="portfolio section">
+    <div class="container callout">
+        <div class="row text-vertical-center">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 titlePortfolio">
+                  <div class="col-md-8 viewportTitle">
+                    <div class="titleSlide">
+                        <div class="blockTitle" id="blockTitle4">
+                            <h3>MY<br>PROJECTS</h3>
+                            <p>I have done mostly projects as part of my class assignments in college. Other than that, I have redesigned and programmed a website for a restaurant which hasn't been published online.</p>
+                        </div>
+                        <div class="blockTitle" id="blockTitle3">
+                            <h3>SKILLS</h3>
+                            <p>I have gained most of my professional skills in college, and I am improving them in my spare time.</p>
+                        </div>
+                        <div class="blockTitle" id="blockTitle1">
+                            <h3 class="col-md-12">WORKING<br>EXPERIENCE</h3>
+                            <p class="col-md-12">I don't have any IT-related work experience yet, but I do have in varying other professions.</p>
+                        </div>
+                        <div class="blockTitle" id="blockTitle2">
+                            <h3>EDUCATION</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-12 col-md-7">
+                    <div class="experience col-sm-12 col-md-8">
+                        <div class="education">
+                            <div class="block" id="block1">
+                                <img id="iconEduWork" src="assets/img/education.png">
+                                <ul>
+                                    <li>Rochester Institute<br>of Technologies,<br>Zagreb<span class="insideLiBlock">2015 - today</span></li>
+                                    <li>Gymnasium Gospić,<br>Gospić<span class="insideLiBlock">2011 - 2015</span></li>
+                                </ul>
+                            </div>
+                            <div class="block" id="block2">
+                                <img id="iconEduWork" src="assets/img/monitor.png">
+                                <ul>
+                                    <li>Receptionist<span class="insideLiBlock">
+                                    Hotel Zagreb,<br>Karlobag<br>2 summers</span></li>
+                                    <li>Tourist Group<br>Trip Organizator<span class="insideLiBlock">Hotel Zagreb<br>Karlobag<br>1 summer</span></li>
+                                </ul>
+                            </div>
+                            <div class="block" id="block3">
+                                <img id="iconEduWork" src="assets/img/programmer1.png">
+                                <ul id="remPadding">
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>JQuery</li>
+                                    <li>PHP</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Adobe Illustrator</li>
+                                    <li>Adobe Photoshop</li>
+                                </ul>
+                            </div>
+                            <div class="block" id="block4">
+                                <img id="iconEduWork" src="assets/img/idea1.png">
+                                <ul>
+                                	<li><a target="_blank" href="balon/index.php">Restaurant Balon<br>
+                                    <span class="insideLiBlock">Not published<br></span></a></li>
+                                    <li>My Portfolio
+                                    <span class="insideLiBlock">This webpage</span></li>
+                                    <li><a target="_blank" href="sport/index.html">College - Project 1</a></li>
+                                    <li><a target="_blank" href="czech/index.php">College - Project 2</a></li>
+                                    <li><a target="_blank" href="ireland/index.php">College - Project 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <img id="dotted" src="assets/img/dotted.png">
+                </div>
+                </div>
+                <div class="svg">
+                    <div class="circle" id="circle3"></div>
+                    <svg height="300" width="250">
+                        <polygon points="200,10 300,190 100,190" style="fill:transparent;stroke:#443a8b;stroke-width:10" transform="translate(200,147),rotate(190 50 50)"/>
+                        Sorry, your browser does not support inline SVG.
+                    </svg>
+                </div>
+            <div class="row">
+                <div class="col-md-12 buttonsExperience">
+                    <button id="btn1"><img src="assets/img/activeEdu.png"></button>
+                    <button id="btn2"><img src="assets/img/nonactiveMon.png"></button>
+                    <button id="btn3"><img src="assets/img/programmer.png"></button>
+                    <button id="btn4"><img src="assets/img/idea.png"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<div class="color">
+<footer class="section" id="contact">
+    <div class="container callout">
+        <div class="circle"></div>
+        <img id="monitor" src="assets/img/monitorBlue.png" alt="monitor-icon">
+        <img id="vector" src="assets/img/vector.png" alt="vector-icon">
+        <div class="row text-vertical-center">
+            <ul class="list-unstyled">
+                <li><a href="mailto:armana.imsirevic@gmail.com">armana.imsirevic@gmail.com</a></li>
+                <li><a href="tel:+385993920668">+385 99 3920 668</a></li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+            	<li>
+                    <a target="_blank" href="https://www.linkedin.com/in/Armana-Imsirevic"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/Eremen1"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/eremenn/"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+            <br>
+            <!--<p class="text-muted"></p>-->
+                <p class="text-muted">Copyright &copy; Armana Imsirevic 2017</p>
+            </div>
+            <img id="code" src="assets/img/code.png" alt="icon-code">
+      </div>
+      <a id="to-top" href="#top" class="btn btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+  </footer>
+</div>  
+<script src="assets/js/jquery.js"></script>
+
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="assets/scrollify/jquery.scrollify.js"></script>
+  <script type="text/javascript" src="assets/scrollify/jquery.scrollify.min.js"></script>
+  <script>
+    $(function() {
+        $.scrollify({
+            section : ".section",
+        });
+    });
+</script>
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
